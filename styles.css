@@ -1,0 +1,57 @@
+/*BODY STYLES*/
+
+body {
+    width: 350px;
+    margin: 0 auto;
+}
+
+/*HEADER STYLES */
+
+header {
+    background: lightgrey;
+    border-bottom: grey 2px solid;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 0;
+}
+
+/*HAMBURGER MENU*/
+
+#menu {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 5px;
+    margin: 5px;
+}
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#list {
+    list-style: none;
+    border: 1px solid grey;
+    width: 75px;
+    background: white;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    right: 165px;
+}
+
+/*MAIN STYLES*/
+
+section {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#numbers {
+    display: none;
+}
+
